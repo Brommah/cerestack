@@ -1,0 +1,27 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Node (if using for any tooling)
+node_modules/
+npm-debug.log*
