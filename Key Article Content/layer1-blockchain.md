@@ -8,7 +8,9 @@ This isn't about cryptocurrency—it's about creating a system conscience. A mat
 
 **Decentralized Governance Through Code**
 
-Smart contracts don't just execute transactions here; they govern the entire network through OpenGov, Polkadot's revolutionary governance framework. When the network needs to evolve—whether admitting new data clusters, adjusting protocol parameters, or implementing upgrades—the community decides through on-chain referenda. No backroom deals, no corporate board meetings. Just transparent, executable democracy where token holders shape the future of the infrastructure they rely on.
+Smart contracts don't just execute transactions here; they govern the entire network through OpenGov, Polkadot's revolutionary governance framework. This is pure on-chain democracy—no company controls it, no DAO controls it, the code itself executes the will of token holders. When the network needs to evolve—whether adjusting storage prices, modifying validator rewards, or implementing protocol upgrades—CERE holders vote directly on-chain (1 token = 1 vote). 
+
+These aren't advisory votes or governance theater. When a proposal passes, smart contracts automatically execute the changes. No CEO can veto it. No board can delay it. The blockchain becomes a living constitution, amended only by its citizens. The Cere DAO provides legal support for these decisions but cannot override them—true decentralization in action.
 
 **The Validator Network: Distributed Trust at Scale**
 

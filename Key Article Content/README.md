@@ -14,6 +14,7 @@ This directory contains the complete article "From the Cerebellum to the Cephalu
 - **`layer6-infrastructure.md`** - Layer 6: Infrastructure and Deployment (K8s, supporting services)
 - **`layer7-developer-tools.md`** - Layer 7: Developer Tools and SDKs (Wallet SDK, Media SDK, DDC SDK)
 - **`conclusion.md`** - The closing section on why this is a paradigm shift
+- **`cere_dao_governance.md`** - The Cere DAO: Decentralized governance for the neural stack (Swiss Association structure)
 
 ### Generated Files
 - **`full_article.md`** - Complete article with emojis (auto-generated)

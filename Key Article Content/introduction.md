@@ -25,6 +25,6 @@ In this article, we will walk through the complete architecture, from the blockc
 
 If **Cere** is the cerebellum that keeps this digital organism stable and self-correcting, **CEF** is the cephalum that brings it to life, reasoning, adapting, and building new forms of intelligence on a foundation you can finally trust.
 
-What makes this possible is the sophisticated interplay of multiple layers, each one complex, and designed to work seamlessly together.
+What makes this possible is the sophisticated interplay of multiple layers, each one complex, and designed to work seamlessly together. At the protocol level, **OpenGov** provides autonomous on-chain governance where token holders directly control network parameters—no company or DAO can override these decisions. Supporting this decentralized protocol, the **Cere DAO** (a Swiss Association) handles the messy reality of legal contracts, compliance, and real-world operations.
 
 Let us begin at the foundation, where trust itself is encoded into an immutable ledger that no single entity can corrupt or control.

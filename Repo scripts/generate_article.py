@@ -10,13 +10,23 @@ from datetime import datetime
 
 def read_file_content(filepath, skip_lines=0):
     """Read file content, optionally skipping initial lines."""
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-            return ''.join(lines[skip_lines:])
-    except FileNotFoundError:
-        print(f"Warning: {filepath} not found")
-        return ""
+    # Try to find the file in multiple locations
+    possible_paths = [
+        filepath,  # Current directory
+        f"../{filepath}",  # Parent directory
+        f"../Key Article Content/{filepath}",  # Key Article Content directory
+    ]
+    
+    for path in possible_paths:
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+                return ''.join(lines[skip_lines:])
+        except FileNotFoundError:
+            continue
+    
+    print(f"Warning: {filepath} not found in any expected location")
+    return ""
 
 def generate_full_article():
     """Generate the complete article by concatenating all sections."""
@@ -32,6 +42,7 @@ def generate_full_article():
         ("layer6-infrastructure.md", 2),
         ("layer7-developer-tools.md", 2),
         ("conclusion.md", 2),
+        ("cere_dao_governance.md", 0),  # Include the DAO article
     ]
     
     # Start building the article
@@ -58,8 +69,8 @@ def generate_full_article():
     # Join all content
     full_article = '\n'.join(article_content)
     
-    # Write to output file
-    output_file = "full_article.md"
+    # Write to output file (in parent directory)
+    output_file = "../full_article.md"
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(full_article)
     
@@ -69,7 +80,7 @@ def generate_full_article():
     for emoji in emojis_to_remove:
         professional_article = professional_article.replace(emoji + ' ', '')
     
-    with open("full_article_professional.md", 'w', encoding='utf-8') as f:
+    with open("../full_article_professional.md", 'w', encoding='utf-8') as f:
         f.write(professional_article)
     
     # Print statistics
