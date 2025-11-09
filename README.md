@@ -25,6 +25,16 @@ This directory contains the complete article "From the Cerebellum to the Cephalu
 - **`watch_and_generate.py`** - Auto-regenerate on file changes
 - **`Makefile`** - Convenience commands
 
+### Visual Content Tools
+- **`infographic_guide.md`** - Detailed visual specifications for each layer
+- **`generate_images_gemini.py`** - Generate images using Google Gemini API
+- **`generate_images_retry.py`** - Retry-enabled image generation with resume capability
+- **`generated_images/`** - Directory where all generated images will be stored
+
+### Marketing Content
+- **`video_script_1min.md`** - 60-second explainer video script
+- **`tweets_cere_stack.md`** - 10 high-engagement tweets for social media
+
 ## How to Edit
 
 Each section is self-contained and can be edited independently while maintaining the overall narrative structure of the article. When making edits:
