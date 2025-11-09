@@ -1,0 +1,24 @@
+{
+  "generated": [
+    "01_cerebellum_to_cephalum",
+    "02_blockchain_foundation",
+    "03_ddc_global_network",
+    "04_data_processing_pipeline",
+    "07_infrastructure_stack",
+    "05_ai_orchestration_center",
+    "06_token_economics_flow",
+    "08_developer_journey",
+    "09_paradigm_shift"
+  ],
+  "failed": [
+    "05_ai_orchestration_center",
+    "06_token_economics_flow"
+  ],
+  "last_attempt": "2025-11-09T18:11:10.802888",
+  "error": "Quota exceeded for free tier",
+  "next_steps": [
+    "Wait for daily quota reset",
+    "Or upgrade to paid Gemini API tier",
+    "Or use alternative services like DALL-E 3, Stable Diffusion"
+  ]
+}

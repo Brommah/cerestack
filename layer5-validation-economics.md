@@ -1,10 +1,10 @@
-# Layer 5: Data Validation and Economics
+# Layer 5: The Automated Economy
 
-## **🔄 Layer 5: Data Validation and Economics**
+## **🔄 Layer 5: The Automated Economy**
 
-Trust without verification is merely hope. In the Cere Stack, every computation has a receipt, every storage operation leaves a trace, and every byte transferred generates a cryptographic proof. This is not bureaucracy—it is the foundation of a trustless economy where value flows automatically to those who provide it.
+Trust without verification is merely hope. In the Cere Stack, the protocol itself is the CFO—automatically verifying work and paying for it. Every computation has a receipt, every storage operation leaves a trace, and every byte transferred generates a cryptographic proof. This is a self-funding, self-correcting economic system.
 
-**DAC: The Immutable Ledger of Truth**
+**DAC: The Receipt for Every Action**
 
 The Data Activity Capture (DAC) system aggregates these proofs in 10-minute windows called eras, creating Merkle trees that compress millions of operations into verifiable summaries. Think of it as a massive, distributed accounting system where every debit and credit is cryptographically signed, every transaction is linked to its predecessors, and the books balance automatically.
 

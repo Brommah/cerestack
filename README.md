@@ -34,6 +34,8 @@ This directory contains the complete article "From the Cerebellum to the Cephalu
 ### Marketing Content
 - **`video_script_1min.md`** - 60-second explainer video script
 - **`tweets_cere_stack.md`** - 10 high-engagement tweets for social media
+- **`nightingale_announcement.md`** - Production use case announcement
+- **`intro_versions.md`** - Three audience-specific introductions (CIO, Developer, Web3)
 
 ## How to Edit
 
@@ -80,6 +82,7 @@ make clean
 - **Sections**: 9 (introduction + 7 layers + conclusion)
 
 ## Recent Updates
+### Technical Updates
 - Added clarification about CEF spanning layers 4-7
 - Updated Dragon 1 cluster details (63 nodes globally)
 - Added cost comparison (7x cheaper than AWS S3)
@@ -87,3 +90,12 @@ make clean
 - Strengthened community call-to-action
 - Added compliance note for GDPR/HIPAA
 - Added migration simplicity section
+
+### Fred's Strategic Rewrites (Latest)
+- **Pain-first messaging**: Start with customer problems, not technology
+- **Reframed Layer 1**: Now "The Trust Layer" instead of technical blockchain details
+- **Direct cost challenge**: Production metrics with dashboard proof
+- **ROB positioning**: "Your AI Agent Factory" with 1-hour deployment
+- **Layer 5 reframe**: "The Automated Economy" with protocol as CFO
+- **Aggressive conclusion**: "The Cloud is Obsolete for AI"
+- **Three audience intros**: Specific versions for CIO, Developer, and Web3
